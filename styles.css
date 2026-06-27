@@ -936,11 +936,12 @@ h1, h2, h3 { margin: 0; }
 /*---------------------------
 Hamburger Menu
 ------------------------------*/
-.menu-btn{ display: none;
-           width: 58px;
-           height: 58px;
-          border: 2px solid var(--ink);
-        background: var(--blue);
+.menu-btn{ display: flex;
+           width: 40px;
+           height: 40px;
+          border: none;
+          padding: 0;
+        background: transparent;
         justify-content: center;
       align-items: center;
     flex-direction: column;
@@ -978,7 +979,7 @@ X-animation
 Hover
 -----------------------*/
 .menu-btn:hover{
-  background: var(--orange);
+  transform: scale(1.1);
 }
 /*----------------------
 Mobile
@@ -997,6 +998,7 @@ Mobile
 opacity: 1;
 visibility:visible;
 }
+
 
 
 
